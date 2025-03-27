@@ -1,0 +1,94 @@
+.fon-1 {
+    background-image: url("https://healthyfood.am/v2/wp-content/uploads/2022/10/slide-3-e1666887506740.jpg");
+    width: 80%;
+    height: 90%;
+    background-size: cover;
+    border-radius: 20px;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.cont4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+.text {
+    color: white;
+}
+
+.slider-info {
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.3);
+    color: #000;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    width: 400px;
+    height: 100px;
+}
+
+.butt {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 12px 30px;
+    border-radius: 4px;
+    color: #fff;
+    border: 1px solid transparent;
+    background-color: #3BB77E;
+    transition: all 300ms linear 0s;
+    letter-spacing: 0.5px;
+}
+
+@media (max-width: 768px) {
+    .fon-1 {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+        justify-content: center;
+    }
+
+    .cont4 {
+        height: auto;
+        padding: 20px;
+    }
+
+    .slider-info {
+        width: 90%;
+        margin: 10px 0;
+    }
+
+    .butt {
+        padding: 10px 20px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    .fon-1 {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+        justify-content: center;
+    }
+
+    .cont4 {
+        height: auto;
+        padding: 15px;
+    }
+
+    .slider-info {
+        width: 90%;
+        margin: 10px 0;
+        height: auto;
+    }
+
+    .butt {
+        padding: 8px 15px;
+        font-size: 12px;
+    }
+}
