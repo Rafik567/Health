@@ -3,6 +3,7 @@ import './App.css'
 import Header from './Components/Header/Header'
 import Tesak from './Components/Tesak/Tesak'
 import Advanture from './Components/Advanture/Advanture'
+import Plan from './Components/Plan/Plan'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,6 +15,7 @@ function App() {
         <Tesak />
       </div>
       <Advanture/>
+      <Plan/>
     </>
   )
 }
